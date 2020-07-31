@@ -57,7 +57,7 @@ def validate_block_size(bs_value):
 def validate_frequency(number):
 	try:
 		num = float(number)
-		if (0 <= num <= 100):
+		if (0 < num < 100):
 			return num
 		else:
 			raise argparse.ArgumentTypeError('\n>>>>> Provided value is not number between 0-100!\n')
