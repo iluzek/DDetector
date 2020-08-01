@@ -109,7 +109,7 @@ help="""
 check_types_group.add_argument("-f","--frequency", metavar='frequency', type=validate_frequency,
 help="""
 ===============================================================================
-'DDector.py file_path -f value'     Value: 1-100 as percentage of blocks.
+'DDector.py file_path -f value'     Value: Where 1 is 100%, 0.1 is 10%, etc
 ===============================================================================
 
 """)
